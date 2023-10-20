@@ -9,6 +9,8 @@
   "mdOutDir": "docs",
   "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
   "profiles": [
-    "taskA.json"
+    "unitListening.json",
+    "unitReading.json",
+    "item.json"
   ]
 }

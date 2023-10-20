@@ -1,0 +1,64 @@
+{
+  "id": "https://raw.githubusercontent.com/iqb-vocabs/p52/master/item.json",
+  "label": [{
+    "lang": "de",
+    "value": "IQB Englisch Sek I - Item"
+  }],
+  "groups": [
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Item"
+        }
+      ],
+      "entries": [
+        {
+          "id": "s2",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Itemtyp 3er"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v10/p1/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "s3",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Niveaustufe GER"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v10/p1/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "s4",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Funktionale kommunikative Kompetenz"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "w3id.org/iqb/v56/fm/",
+            "allowMultipleValues": true,
+            "maxLevel": 2
+          }
+        }
+      ]
+    }
+  ]
+}
