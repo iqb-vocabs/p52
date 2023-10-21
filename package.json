@@ -16,6 +16,6 @@
   },
   "homepage": "https://github.com/iqb-vocabs/p52#readme",
   "dependencies": {
-    "@iqb/validate-md-profile": "^0.3.0"
+    "@iqb/validate-md-profile": "^0.4.0"
   }
 }
