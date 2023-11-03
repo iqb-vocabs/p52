@@ -53,7 +53,7 @@
           ],
           "type": "vocabulary",
           "parameters": {
-            "url": "w3id.org/iqb/v56/fm/",
+            "url": "https://w3id.org/iqb/v56/fm/",
             "allowMultipleValues": true,
             "maxLevel": 2
           }

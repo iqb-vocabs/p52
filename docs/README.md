@@ -63,4 +63,4 @@ https://raw.githubusercontent.com/iqb-vocabs/p52/master/item.json
 | :--- | :---: | :--- | :---: |
 | Itemtyp 3er | [Vokabular](https://w3id.org/iqb/v27/it/) | url: 'https://w3id.org/iqb/v27/it/', Einmalauswahl, verberge Nummerierung | s2 |
 | Niveaustufe GER | [Vokabular](https://w3id.org/iqb/v26/ng/) | url: 'https://w3id.org/iqb/v26/ng/', Einmalauswahl, verberge Nummerierung | s3 |
-| Funktionale kommunikative Kompetenz | [Vokabular](w3id.org/iqb/v56/fm/) | url: 'w3id.org/iqb/v56/fm/', Mehrfachauswahl, Zeige nur erste 2 Ebenen | s4 |
+| Funktionale kommunikative Kompetenz | [Vokabular](https://w3id.org/iqb/v56/fm/) | url: 'https://w3id.org/iqb/v56/fm/', Mehrfachauswahl, Zeige nur erste 2 Ebenen | s4 |
