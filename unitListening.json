@@ -127,6 +127,19 @@
             "allowMultipleValues": false,
             "hideNumbering": true
           }
+        },
+        {
+          "id": "iqb_copyright",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Quellenangaben"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
         }
       ]
     },
@@ -190,8 +203,20 @@
             "allowMultipleValues": false,
             "hideNumbering": true
           }
-        }
-      ]
+        },
+        {
+          "id": "iqb_transcript",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Transcript"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        }      ]
     }
   ]
 }

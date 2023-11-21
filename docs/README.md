@@ -27,6 +27,7 @@ https://raw.githubusercontent.com/iqb-vocabs/p52/master/unitListening.json
 | Textsorte | [Vokabular](https://w3id.org/iqb/v25/te/) | url: 'https://w3id.org/iqb/v25/te/', Mehrfachauswahl, verberge Nummerierung | e5 |
 | Thema | [Vokabular](https://w3id.org/iqb/v25/th/) | url: 'https://w3id.org/iqb/v25/th/', Mehrfachauswahl, verberge Nummerierung | e6 |
 | Vokabular | [Vokabular](https://w3id.org/iqb/v25/vf/) | url: 'https://w3id.org/iqb/v25/vf/', Einmalauswahl, verberge Nummerierung | e7 |
+| Quellenangaben | Text |Mehrzeilig, Sprache(n): de | iqb_copyright |
 ### Hörsequenz
 
 | Name/Label | Typ | Parameter | ID Profil-Eintrag |
@@ -34,6 +35,7 @@ https://raw.githubusercontent.com/iqb-vocabs/p52/master/unitListening.json
 | Sprecher*innen: Anzahl | Zahl |Kommastellen: 0, Mindestwert: 1, Maximalwert: kein | k2 |
 | Nebengeräusche | Ja/Nein |Text für WAHR: störend, Text für FALSCH: nicht relevant | k3 |
 | Sprechtempo | [Vokabular](https://w3id.org/iqb/v25/sp/) | url: 'https://w3id.org/iqb/v25/sp/', Einmalauswahl, verberge Nummerierung | k4 |
+| Transcript | Text |Mehrzeilig, Sprache(n): de | iqb_transcript |
 ## Profil "IQB Fremdsprachen Sek I - Aufgabe Leseverstehen"
 ```
 https://raw.githubusercontent.com/iqb-vocabs/p52/master/unitReading.json
@@ -54,6 +56,7 @@ https://raw.githubusercontent.com/iqb-vocabs/p52/master/unitReading.json
 | Textsorte | [Vokabular](https://w3id.org/iqb/v25/te/) | url: 'https://w3id.org/iqb/v25/te/', Mehrfachauswahl, verberge Nummerierung | e5 |
 | Thema | [Vokabular](https://w3id.org/iqb/v25/th/) | url: 'https://w3id.org/iqb/v25/th/', Mehrfachauswahl, verberge Nummerierung | e6 |
 | Vokabular | [Vokabular](https://w3id.org/iqb/v25/vf/) | url: 'https://w3id.org/iqb/v25/vf/', Einmalauswahl, verberge Nummerierung | e7 |
+| Quellenangaben | Text |Mehrzeilig, Sprache(n): de | iqb_copyright |
 ## Profil "IQB Fremdsprachen Sek I - Item"
 ```
 https://raw.githubusercontent.com/iqb-vocabs/p52/master/item.json
