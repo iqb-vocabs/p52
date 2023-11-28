@@ -1,40 +1,15 @@
 {
-  "id": "https://raw.githubusercontent.com/iqb-vocabs/p52/master/unitListening.json",
+  "id": "https://raw.githubusercontent.com/iqb-vocabs/p52/master/unit.json",
   "label": [{
     "lang": "de",
-    "value": "IQB Fremdsprachen Sek I - Aufgabe Hörverstehen"
+    "value": "IQB Fremdsprachen Sek I - Aufgabe"
   }],
   "groups": [
     {
       "label": [
         {
           "lang": "de",
-          "value": "Aufgabe allgemein"
-        }
-      ],
-      "entries": [
-        {
-          "id": "w8",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Lese-/Hörstil"
-            }
-          ],
-          "type": "vocabulary",
-          "parameters": {
-            "url": "https://w3id.org/iqb/v26/lh/",
-            "allowMultipleValues": false,
-            "hideNumbering": true
-          }
-        }
-      ]
-    },
-    {
-      "label": [
-        {
-          "lang": "de",
-          "value": "Textvorgabe"
+          "value": "Stimulus"
         }
       ],
       "entries": [
@@ -43,7 +18,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Textschwierigkeit allgemein"
+              "value": "Niveaustufe GER Stimulus"
             }
           ],
           "type": "vocabulary",
@@ -73,7 +48,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Textabstraktionsgrad"
+              "value": "Abstraktionsgrad"
             }
           ],
           "type": "vocabulary",
@@ -88,7 +63,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Textsorte"
+              "value": "Stimulussorte"
             }
           ],
           "type": "vocabulary",
@@ -140,6 +115,21 @@
           "parameters": {
             "format": "multiline"
           }
+        },
+        {
+          "id": "iqb_time_stimulus",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Stimuluszeit"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0,
+            "isPeriodSeconds": true
+          }
         }
       ]
     },
@@ -156,7 +146,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Sprecher*innen: Anzahl"
+              "value": "Anzahl Sprecher:innen"
             }
           ],
           "type": "number",

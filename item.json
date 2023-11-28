@@ -14,16 +14,31 @@
       ],
       "entries": [
         {
-          "id": "s2",
+          "id": "w8",
           "label": [
             {
               "lang": "de",
-              "value": "Itemtyp 3er"
+              "value": "Lese-/Hörstil"
             }
           ],
           "type": "vocabulary",
           "parameters": {
-            "url": "https://w3id.org/iqb/v27/it/",
+            "url": "https://w3id.org/iqb/v26/lh/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "s8",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Geschätzte Niveaustufe GER"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v26/ng/",
             "allowMultipleValues": false,
             "hideNumbering": true
           }
@@ -33,12 +48,12 @@
           "label": [
             {
               "lang": "de",
-              "value": "Niveaustufe GER"
+              "value": "Itemformat"
             }
           ],
           "type": "vocabulary",
           "parameters": {
-            "url": "https://w3id.org/iqb/v26/ng/",
+            "url": "https://w3id.org/iqb/v27/fr/",
             "allowMultipleValues": false,
             "hideNumbering": true
           }
@@ -56,6 +71,21 @@
             "url": "https://w3id.org/iqb/v56/fm/",
             "allowMultipleValues": true,
             "maxLevel": 2
+          }
+        },
+        {
+          "id": "iqb_time_item",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Itemzeit"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0,
+            "isPeriodSeconds": true
           }
         }
       ]
