@@ -31,7 +31,7 @@ https://raw.githubusercontent.com/iqb-vocabs/p52/master/unit.json
 | Anzahl Sprecher:innen | Zahl |Kommastellen: 0, Mindestwert: 1, Maximalwert: kein | k2 |
 | Nebengeräusche | Ja/Nein |Text für WAHR: störend, Text für FALSCH: nicht relevant | k3 |
 | Sprechtempo | [Vokabular](https://w3id.org/iqb/v25/sp/) | url: 'https://w3id.org/iqb/v25/sp/', Einmalauswahl, verberge Nummerierung | k4 |
-| Transcript | Text |Mehrzeilig, Sprache(n): de | iqb_transcript |
+| Transkript | Text |Mehrzeilig, Sprache(n): de | iqb_transcript |
 ## Profil "IQB Fremdsprachen Sek I - Item"
 ```
 https://raw.githubusercontent.com/iqb-vocabs/p52/master/item.json
