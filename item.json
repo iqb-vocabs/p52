@@ -2,7 +2,7 @@
   "id": "https://raw.githubusercontent.com/iqb-vocabs/p52/master/item.json",
   "label": [{
     "lang": "de",
-    "value": "IQB Fremdsprachen Sek I - Item"
+    "value": "IQB Französisch Sek I - Item"
   }],
   "groups": [
     {
@@ -33,12 +33,27 @@
           "label": [
             {
               "lang": "de",
-              "value": "Geschätzte Niveaustufe GER"
+              "value": "Geschätzte GeR Niveaustufe (a priori)"
             }
           ],
           "type": "vocabulary",
           "parameters": {
             "url": "https://w3id.org/iqb/v26/ng/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "s9",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Empirisch ermittelte GeR Niveaustufe"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v26/nb/",
             "allowMultipleValues": false,
             "hideNumbering": true
           }
@@ -53,7 +68,7 @@
           ],
           "type": "vocabulary",
           "parameters": {
-            "url": "https://w3id.org/iqb/v27/fr/",
+            "url": "https://w3id.org/iqb/v27/ff/",
             "allowMultipleValues": false,
             "hideNumbering": true
           }
@@ -63,7 +78,22 @@
           "label": [
             {
               "lang": "de",
-              "value": "Funktionale kommunikative Kompetenz"
+              "value": "Bildungstandards ESA"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v56/fe/",
+            "allowMultipleValues": true,
+            "maxLevel": 2
+          }
+        },
+        {
+          "id": "s5",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Bildungstandards MSA"
             }
           ],
           "type": "vocabulary",

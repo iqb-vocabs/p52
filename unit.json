@@ -2,7 +2,7 @@
   "id": "https://raw.githubusercontent.com/iqb-vocabs/p52/master/unit.json",
   "label": [{
     "lang": "de",
-    "value": "IQB Fremdsprachen Sek I - Aufgabe"
+    "value": "IQB Französisch Sek I - Aufgabe"
   }],
   "groups": [
     {
@@ -18,7 +18,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Niveaustufe GER Stimulus"
+              "value": "Textniveau (GER)"
             }
           ],
           "type": "vocabulary",
@@ -33,12 +33,12 @@
           "label": [
             {
               "lang": "de",
-              "value": "Syntaxkomplexität"
+              "value": "Textkomplexität: Lexiko-Grammatik"
             }
           ],
           "type": "vocabulary",
           "parameters": {
-            "url": "https://w3id.org/iqb/v25/sy/",
+            "url": "https://w3id.org/iqb/v25/le/",
             "allowMultipleValues": false,
             "hideNumbering": true
           }
@@ -48,7 +48,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Abstraktionsgrad"
+              "value": "Textkomplexität: Abstraktionsgrad"
             }
           ],
           "type": "vocabulary",
@@ -63,18 +63,46 @@
           "label": [
             {
               "lang": "de",
-              "value": "Stimulussorte"
+              "value": "Textkomplexität: Thematischer Vertrautheitsgrad"
             }
           ],
           "type": "vocabulary",
           "parameters": {
-            "url": "https://w3id.org/iqb/v25/te/",
-            "allowMultipleValues": true,
+            "url": "https://w3id.org/iqb/v25/ve/",
+            "allowMultipleValues": false,
             "hideNumbering": true
           }
         },
         {
           "id": "e6",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Textkomplexität: Textsorte"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v25/te/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "iqb_other_text_type",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Textkomplexität: Andere Textsorte"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "single"
+          }
+        },
+        {
+          "id": "e7",
           "label": [
             {
               "lang": "de",
@@ -84,23 +112,21 @@
           "type": "vocabulary",
           "parameters": {
             "url": "https://w3id.org/iqb/v25/th/",
-            "allowMultipleValues": true,
+            "allowMultipleValues": false,
             "hideNumbering": true
           }
         },
         {
-          "id": "e7",
+          "id": "iqb_other_topic",
           "label": [
             {
               "lang": "de",
-              "value": "Vokabular"
+              "value": "Andere Thema"
             }
           ],
-          "type": "vocabulary",
+          "type": "text",
           "parameters": {
-            "url": "https://w3id.org/iqb/v25/vf/",
-            "allowMultipleValues": false,
-            "hideNumbering": true
+            "format": "single"
           }
         },
         {
@@ -108,7 +134,46 @@
           "label": [
             {
               "lang": "de",
-              "value": "Quellenangaben"
+              "value": "Quellenangabe - Erstaufnahme"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        },
+        {
+          "id": "iqb_copyright_citation",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Quellenangabe - Vermerk / Zitation"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "single"
+          }
+        },
+        {
+          "id": "iqb_copyright_original",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Quellenangabe - Transkript Original"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        },
+        {
+          "id": "iqb_copyright_transformed",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Quellenangabe - Transkript mit Änderungen"
             }
           ],
           "type": "text",
@@ -130,6 +195,35 @@
             "digits": 0,
             "isPeriodSeconds": true
           }
+        },
+        {
+          "id": "iqb_word_count",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Wortanzahl"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0
+          }
+        },
+        {
+          "id": "iqb_time_unit",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Aufgabenzeit"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0,
+            "isPeriodSeconds": true
+          }
         }
       ]
     },
@@ -137,7 +231,7 @@
       "label": [
         {
           "lang": "de",
-          "value": "Hörsequenz"
+          "value": "Audivisuelle / Hörsequenz"
         }
       ],
       "entries": [
@@ -146,41 +240,16 @@
           "label": [
             {
               "lang": "de",
-              "value": "Anzahl Sprecher:innen"
+              "value": "Anzahl Sprecher*innen"
             }
           ],
-          "type": "number",
+          "type": "text",
           "parameters": {
-            "minValue":  1,
-            "digits": 0
+            "format":  "single"
           }
         },
         {
           "id": "k3",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Nebengeräusche"
-            }
-          ],
-          "type": "boolean",
-          "parameters": {
-            "trueLabel": [
-              {
-                "lang": "de",
-                "value": "störend"
-              }
-            ],
-            "falseLabel": [
-              {
-                "lang": "de",
-                "value": "nicht relevant"
-              }
-            ]
-          }
-        },
-        {
-          "id": "k4",
           "label": [
             {
               "lang": "de",
@@ -195,7 +264,37 @@
           }
         },
         {
-          "id": "iqb_transcript",
+          "id": "k4",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Varianten"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v25/fv/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "k5",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Nebengeräusche"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v25/ne/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "iqb_final_transcript",
           "label": [
             {
               "lang": "de",
@@ -206,7 +305,8 @@
           "parameters": {
             "format": "multiline"
           }
-        }      ]
+        }
+      ]
     }
   ]
 }
