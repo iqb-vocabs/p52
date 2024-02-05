@@ -18,7 +18,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Textniveau (GER)"
+              "value": "Textniveau (GeR)"
             }
           ],
           "type": "vocabulary",
@@ -121,7 +121,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Andere Thema"
+              "value": "Andere Themen"
             }
           ],
           "type": "text",
@@ -240,7 +240,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Anzahl Sprecher*innen"
+              "value": "Anzahl der Sprecher*innen"
             }
           ],
           "type": "text",
