@@ -78,7 +78,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Textkomplexität: Textsorte"
+              "value": "Textsorte"
             }
           ],
           "type": "vocabulary",
@@ -93,7 +93,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Textkomplexität: Andere Textsorte"
+              "value": "Andere Textsorte"
             }
           ],
           "type": "text",
@@ -121,7 +121,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Andere Themen"
+              "value": "Anderes Thema"
             }
           ],
           "type": "text",
@@ -134,7 +134,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Quellenangabe - Erstaufnahme"
+              "value": "Urtext"
             }
           ],
           "type": "text",
@@ -160,20 +160,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Quellenangabe - Transkript Original"
-            }
-          ],
-          "type": "text",
-          "parameters": {
-            "format": "multiline"
-          }
-        },
-        {
-          "id": "iqb_copyright_transformed",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Quellenangabe - Transkript mit Änderungen"
+              "value": "Transkript Original"
             }
           ],
           "type": "text",
@@ -186,7 +173,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Stimuluszeit"
+              "value": "Länge des verwendeten Audioauszugs"
             }
           ],
           "type": "number",
@@ -231,7 +218,7 @@
       "label": [
         {
           "lang": "de",
-          "value": "Audivisuelle / Hörsequenz"
+          "value": "Hörsequenz"
         }
       ],
       "entries": [
@@ -298,7 +285,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Transkript"
+              "value": "Transkript zur Aufgabe"
             }
           ],
           "type": "text",

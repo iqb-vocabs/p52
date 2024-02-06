@@ -68,7 +68,7 @@
           ],
           "type": "vocabulary",
           "parameters": {
-            "url": "https://w3id.org/iqb/v27/ff/",
+            "url": "https://w3id.org/iqb/v27/fe/",
             "allowMultipleValues": false,
             "hideNumbering": true
           }
@@ -85,6 +85,7 @@
           "parameters": {
             "url": "https://w3id.org/iqb/v56/fe/",
             "allowMultipleValues": true,
+            "hideNumbering": true,
             "maxLevel": 2
           }
         },
@@ -100,6 +101,7 @@
           "parameters": {
             "url": "https://w3id.org/iqb/v56/fm/",
             "allowMultipleValues": true,
+            "hideNumbering": true,
             "maxLevel": 2
           }
         },
