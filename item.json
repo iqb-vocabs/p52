@@ -68,7 +68,7 @@
           ],
           "type": "vocabulary",
           "parameters": {
-            "url": "https://w3id.org/iqb/v27/fe/",
+            "url": "https://w3id.org/iqb/v27/ff/",
             "allowMultipleValues": false,
             "hideNumbering": true
           }

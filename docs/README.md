@@ -49,7 +49,7 @@ https://raw.githubusercontent.com/iqb-vocabs/p52/master/item.json
 | Lese-/Hörstil | [Vokabular](https://w3id.org/iqb/v26/lh/) | url: 'https://w3id.org/iqb/v26/lh/', Einmalauswahl, verberge Nummerierung | w8 |
 | Geschätzte GeR Niveaustufe (a priori) | [Vokabular](https://w3id.org/iqb/v26/ng/) | url: 'https://w3id.org/iqb/v26/ng/', Einmalauswahl, verberge Nummerierung | s8 |
 | Empirisch ermittelte GeR Niveaustufe | [Vokabular](https://w3id.org/iqb/v26/nb/) | url: 'https://w3id.org/iqb/v26/nb/', Einmalauswahl, verberge Nummerierung | s9 |
-| Itemformat | [Vokabular](https://w3id.org/iqb/v27/fe/) | url: 'https://w3id.org/iqb/v27/fe/', Einmalauswahl, verberge Nummerierung | s3 |
+| Itemformat | [Vokabular](https://w3id.org/iqb/v27/ff/) | url: 'https://w3id.org/iqb/v27/ff/', Einmalauswahl, verberge Nummerierung | s3 |
 | Bildungsstandards ESA | [Vokabular](https://w3id.org/iqb/v56/fe/) | url: 'https://w3id.org/iqb/v56/fe/', Mehrfachauswahl, Zeige nur erste 2 Ebenen, verberge Nummerierung | s4 |
 | Bildungsstandards MSA | [Vokabular](https://w3id.org/iqb/v56/fm/) | url: 'https://w3id.org/iqb/v56/fm/', Mehrfachauswahl, Zeige nur erste 2 Ebenen, verberge Nummerierung | s5 |
 | Itemzeit | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_item |
