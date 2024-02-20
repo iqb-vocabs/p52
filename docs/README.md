@@ -31,7 +31,6 @@ https://raw.githubusercontent.com/iqb-vocabs/p52/master/unit.json
 
 | Name/Label | Typ | Parameter | ID Profil-Eintrag |
 | :--- | :---: | :--- | :---: |
-| Urtext | Text |Mehrzeilig, Sprache(n): de | iqb_copyright |
 | Vermerk / Zitation | Text |Einzeilig, Sprache(n): de | iqb_copyright_citation |
 | Transkript Original | Text |Mehrzeilig, Sprache(n): de | iqb_copyright_original |
 ### Hörsequenz

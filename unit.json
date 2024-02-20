@@ -184,19 +184,6 @@
       ],
       "entries": [
         {
-          "id": "iqb_copyright",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Urtext"
-            }
-          ],
-          "type": "text",
-          "parameters": {
-            "format": "multiline"
-          }
-        },
-        {
           "id": "iqb_copyright_citation",
           "label": [
             {
