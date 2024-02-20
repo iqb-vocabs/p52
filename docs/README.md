@@ -24,12 +24,16 @@ https://raw.githubusercontent.com/iqb-vocabs/p52/master/unit.json
 | Andere Textsorte | Text |Einzeilig, Sprache(n): de | iqb_other_text_type |
 | Thema | [Vokabular](https://w3id.org/iqb/v25/th/) | url: 'https://w3id.org/iqb/v25/th/', Einmalauswahl, verberge Nummerierung | e7 |
 | Anderes Thema | Text |Einzeilig, Sprache(n): de | iqb_other_topic |
-| Urtext | Text |Mehrzeilig, Sprache(n): de | iqb_copyright |
-| Quellenangabe - Vermerk / Zitation | Text |Einzeilig, Sprache(n): de | iqb_copyright_citation |
-| Transkript Original | Text |Mehrzeilig, Sprache(n): de | iqb_copyright_original |
 | Länge des verwendeten Audioauszugs | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_stimulus |
 | Wortanzahl | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein | iqb_word_count |
 | Aufgabenzeit | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_unit |
+### Quellenangaben
+
+| Name/Label | Typ | Parameter | ID Profil-Eintrag |
+| :--- | :---: | :--- | :---: |
+| Urtext | Text |Mehrzeilig, Sprache(n): de | iqb_copyright |
+| Vermerk / Zitation | Text |Einzeilig, Sprache(n): de | iqb_copyright_citation |
+| Transkript Original | Text |Mehrzeilig, Sprache(n): de | iqb_copyright_original |
 ### Hörsequenz
 
 | Name/Label | Typ | Parameter | ID Profil-Eintrag |

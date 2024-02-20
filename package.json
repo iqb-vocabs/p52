@@ -1,9 +1,9 @@
 {
   "name": "p52",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "author": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
   "license": "CC0-1.0",
-  "description": "Metadatenprofile Französisch",
+  "description": "Metadatenprofile Französisch Sek I",
   "scripts": {
     "validate": "validate-md-profile"
   },

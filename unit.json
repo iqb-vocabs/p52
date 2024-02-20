@@ -130,45 +130,6 @@
           }
         },
         {
-          "id": "iqb_copyright",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Urtext"
-            }
-          ],
-          "type": "text",
-          "parameters": {
-            "format": "multiline"
-          }
-        },
-        {
-          "id": "iqb_copyright_citation",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Quellenangabe - Vermerk / Zitation"
-            }
-          ],
-          "type": "text",
-          "parameters": {
-            "format": "single"
-          }
-        },
-        {
-          "id": "iqb_copyright_original",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Transkript Original"
-            }
-          ],
-          "type": "text",
-          "parameters": {
-            "format": "multiline"
-          }
-        },
-        {
           "id": "iqb_time_stimulus",
           "label": [
             {
@@ -210,6 +171,55 @@
             "minValue": 0,
             "digits": 0,
             "isPeriodSeconds": true
+          }
+        }
+      ]
+    },
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Quellenangaben"
+        }
+      ],
+      "entries": [
+        {
+          "id": "iqb_copyright",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Urtext"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        },
+        {
+          "id": "iqb_copyright_citation",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Vermerk / Zitation"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "single"
+          }
+        },
+        {
+          "id": "iqb_copyright_original",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Transkript Original"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
           }
         }
       ]
