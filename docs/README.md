@@ -37,7 +37,7 @@ https://raw.githubusercontent.com/iqb-vocabs/p52/master/unit.json
 
 | Name/Label | Typ | Parameter | ID Profil-Eintrag |
 | :--- | :---: | :--- | :---: |
-| Anzahl der Sprecher*innen | Text |Einzeilig, Sprache(n): de | k2 |
+| Sprecheranzahl / Sprechermerkmale | Text |Einzeilig, Sprache(n): de | k2 |
 | Sprechtempo | [Vokabular](https://w3id.org/iqb/v25/sp/) | url: 'https://w3id.org/iqb/v25/sp/', Einmalauswahl, verberge Nummerierung | k3 |
 | Varianten | [Vokabular](https://w3id.org/iqb/v25/fv/) | url: 'https://w3id.org/iqb/v25/fv/', Einmalauswahl, verberge Nummerierung | k4 |
 | Nebengeräusche | [Vokabular](https://w3id.org/iqb/v25/ne/) | url: 'https://w3id.org/iqb/v25/ne/', Einmalauswahl, verberge Nummerierung | k5 |
