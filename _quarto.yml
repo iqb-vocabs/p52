@@ -1,18 +1,18 @@
-project: 
+project:
   type: website
 
 website:
   site-url: https://iqb-vocabs.github.io/p52/
-  title: "IQB"
   favicon: favicon.ico
   page-navigation: true
   repo-url: https://github.com/iqb-vocabs/p52/
-  navbar: 
-    logo: IQB-Klein.png
+  navbar:
+    logo: IQB-klein.png
     search: true
     left:
         - href: index.qmd
-     
+          text: "Metadatenprofile für Testaufgaben: Französisch Sek I"
+
 
 format:
   html:
