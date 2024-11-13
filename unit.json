@@ -172,6 +172,19 @@
             "digits": 0,
             "isPeriodSeconds": true
           }
+        },
+        {
+          "id": "iqb_compatibility",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Unverträgliche Aufgaben"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "single"
+          }
         }
       ]
     },

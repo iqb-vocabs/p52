@@ -1,6 +1,4 @@
----
-title: Metadatenprofile für Testaufgaben - Französisch Sek I
----
+# Metadatenprofile für Testaufgaben: Französisch Sek I
 
 ID of profile-store: `frs1`
 
@@ -10,11 +8,11 @@ Maintainer: IQB - Institut zur Qualitätsentwicklung im Bildungswesen
 
 2 Profile definiert:
 
-# IQB Französisch Sek I - Aufgabe
+## Profil "IQB Französisch Sek I - Aufgabe"
 
 ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p52/master/unit.json`
 
-## Stimulus
+### Stimulus
 
 | Name/Label | Typ | Parameter | ID Profil-Eintrag |
 | :--- | :---: | :--- | :---: |
@@ -31,18 +29,14 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p52/master/unit.jso
 | Aufgabenzeit | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_unit |
 | Unverträgliche Aufgaben | Text |Einzeilig, Sprache(n): de | iqb_compatibility |
 
-: {tbl-colwidths="[15,15,55,15]"}
-
-## Quellenangaben
+### Quellenangaben
 
 | Name/Label | Typ | Parameter | ID Profil-Eintrag |
 | :--- | :---: | :--- | :---: |
 | Vermerk / Zitation | Text |Mehrzeilig, Sprache(n): de | iqb_copyright_citation |
 | Transkript Original / Text Original | Text |Mehrzeilig, Sprache(n): de | iqb_copyright_original |
 
-: {tbl-colwidths="[15,15,55,15]"}
-
-## Hörsequenz
+### Hörsequenz
 
 | Name/Label | Typ | Parameter | ID Profil-Eintrag |
 | :--- | :---: | :--- | :---: |
@@ -52,9 +46,7 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p52/master/unit.jso
 | Nebengeräusche | [Vokabular](https://w3id.org/iqb/v25/ne/) | url: 'https://w3id.org/iqb/v25/ne/', Einmalauswahl, Nummerierung unterdrückt | k5 |
 | Transkript zur Aufgabe | Text |Mehrzeilig, Sprache(n): de | iqb_final_transcript |
 
-: {tbl-colwidths="[15,15,55,15]"}
-
-# IQB Französisch Sek I - Item
+## Profil "IQB Französisch Sek I - Item"
 
 ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p52/master/item.json`
 
@@ -67,6 +59,4 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p52/master/item.jso
 | Bildungsstandards ESA | [Vokabular](https://w3id.org/iqb/v56/fe/) | url: 'https://w3id.org/iqb/v56/fe/', Mehrfachauswahl, Zeige nur erste 2 Ebenen, Nummerierung unterdrückt | s4 |
 | Bildungsstandards MSA | [Vokabular](https://w3id.org/iqb/v56/fm/) | url: 'https://w3id.org/iqb/v56/fm/', Mehrfachauswahl, Zeige nur erste 2 Ebenen, Nummerierung unterdrückt | s5 |
 | Itemzeit | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_item |
-
-: {tbl-colwidths="[15,15,55,15]"}
 
