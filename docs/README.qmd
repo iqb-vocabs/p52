@@ -30,6 +30,7 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p52/master/unit.jso
 | Wortanzahl | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein | iqb_word_count |
 | Aufgabenzeit | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_unit |
 | Unverträgliche Aufgaben | Text |Einzeilig, Sprache(n): de | iqb_compatibility |
+| Kopfhörer | [Vokabular](https://w3id.org/iqb/v24/kh/) | url: 'https://w3id.org/iqb/v24/kh/', Einmalauswahl, Nummerierung unterdrückt | iqb_phones |
 
 : {tbl-colwidths="[15,15,55,15]"}
 
