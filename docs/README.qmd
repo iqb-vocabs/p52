@@ -68,6 +68,7 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p52/master/item.jso
 | Bildungsstandards ESA | [Vokabular](https://w3id.org/iqb/v56/fe/) | url: 'https://w3id.org/iqb/v56/fe/', Mehrfachauswahl, Zeige nur erste 2 Ebenen, Nummerierung unterdrückt | s4 |
 | Bildungsstandards MSA | [Vokabular](https://w3id.org/iqb/v56/fm/) | url: 'https://w3id.org/iqb/v56/fm/', Mehrfachauswahl, Zeige nur erste 2 Ebenen, Nummerierung unterdrückt | s5 |
 | Itemzeit | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_item |
+| Technische Besonderheiten der Antwortoptionen | [Vokabular](https://w3id.org/iqb/v27/ti/) | url: 'https://w3id.org/iqb/v27/ti/', Mehrfachauswahl | iqb_itemtech |
 
 : {tbl-colwidths="[15,15,55,15]"}
 
