@@ -29,6 +29,7 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p52/master/unit.jso
 | Aufgabenzeit | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_unit |
 | Unverträgliche Aufgaben | Text |Einzeilig, Sprache(n): de | iqb_compatibility |
 | Kopfhörereinsatz | [Vokabular](https://w3id.org/iqb/v24/kh/) | url: 'https://w3id.org/iqb/v24/kh/', Einmalauswahl, Nummerierung unterdrückt | iqb_phones |
+| Schulform | [Vokabular](https://w3id.org/kim/schularten/) | url: 'https://w3id.org/kim/schularten/', Einmalauswahl, Nummerierung unterdrückt | kim_type_school |
 
 ### Quellenangaben
 
