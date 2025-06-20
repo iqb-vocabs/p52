@@ -28,6 +28,8 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p52/master/unit.jso
 | Wortanzahl | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein | iqb_word_count |
 | Aufgabenzeit | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_unit |
 | Unverträgliche Aufgaben | Text |Einzeilig, Sprache(n): de | iqb_compatibility |
+| Kopfhörereinsatz | [Vokabular](https://w3id.org/iqb/v24/kh/) | url: 'https://w3id.org/iqb/v24/kh/', Einmalauswahl, Nummerierung unterdrückt | iqb_phones |
+| Schulform | [Vokabular](https://w3id.org/kim/schularten/) | url: 'https://w3id.org/kim/schularten/', Einmalauswahl, Nummerierung unterdrückt | kim_type_school |
 
 ### Quellenangaben
 
@@ -59,4 +61,5 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p52/master/item.jso
 | Bildungsstandards ESA | [Vokabular](https://w3id.org/iqb/v56/fe/) | url: 'https://w3id.org/iqb/v56/fe/', Mehrfachauswahl, Zeige nur erste 2 Ebenen, Nummerierung unterdrückt | s4 |
 | Bildungsstandards MSA | [Vokabular](https://w3id.org/iqb/v56/fm/) | url: 'https://w3id.org/iqb/v56/fm/', Mehrfachauswahl, Zeige nur erste 2 Ebenen, Nummerierung unterdrückt | s5 |
 | Itemzeit | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_item |
+| Technische Besonderheiten der Antwortoptionen | [Vokabular](https://w3id.org/iqb/v27/ti/) | url: 'https://w3id.org/iqb/v27/ti/', Mehrfachauswahl | iqb_itemtech |
 

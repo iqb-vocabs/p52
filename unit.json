@@ -185,6 +185,36 @@
           "parameters": {
             "format": "single"
           }
+        },
+        {
+          "id": "iqb_phones",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Kopfhörereinsatz"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v24/kh/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "kim_type_school",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Schulform"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/kim/schularten/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
         }
       ]
     },
