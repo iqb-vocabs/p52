@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Metadatenprofile für Testaufgaben - Französisch Sek I",
     "section": "",
-    "text": "ID of profile-store: frs1\nPublisher: IQB - Institut zur Qualitätsentwicklung im Bildungswesen\nMaintainer: IQB - Institut zur Qualitätsentwicklung im Bildungswesen\n2 Profile definiert:"
+    "text": "ID of profile-store: frs1\nCreator: IQB - Institut zur Qualitätsentwicklung im Bildungswesen\n2 Profile definiert:"
   },
   {
     "objectID": "index.html#stimulus",
     "href": "index.html#stimulus",
     "title": "Metadatenprofile für Testaufgaben - Französisch Sek I",
     "section": "Stimulus",
-    "text": "Stimulus\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nTextniveau (GeR)\nVokabular\nurl: ‘https://w3id.org/iqb/v26/ng/’, Einmalauswahl, Nummerierung unterdrückt\ne2\n\n\nTextkomplexität: Lexiko-Grammatik\nVokabular\nurl: ‘https://w3id.org/iqb/v25/le/’, Einmalauswahl, Nummerierung unterdrückt\ne3\n\n\nTextkomplexität: Abstraktionsgrad\nVokabular\nurl: ‘https://w3id.org/iqb/v25/ta/’, Einmalauswahl, Nummerierung unterdrückt\ne4\n\n\nTextkomplexität: Thematischer Vertrautheitsgrad\nVokabular\nurl: ‘https://w3id.org/iqb/v25/ve/’, Einmalauswahl, Nummerierung unterdrückt\ne5\n\n\nTextsorte\nVokabular\nurl: ‘https://w3id.org/iqb/v25/te/’, Einmalauswahl, Nummerierung unterdrückt\ne6\n\n\nAndere Textsorte\nText\nEinzeilig, Sprache(n): de\niqb_other_text_type\n\n\nThema\nVokabular\nurl: ‘https://w3id.org/iqb/v25/th/’, Einmalauswahl, Nummerierung unterdrückt\ne7\n\n\nAnderes Thema\nText\nEinzeilig, Sprache(n): de\niqb_other_topic\n\n\nLänge des verwendeten Audioauszugs\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden\niqb_time_stimulus\n\n\nWortanzahl\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein\niqb_word_count\n\n\nAufgabenzeit\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden\niqb_time_unit\n\n\nUnverträgliche Aufgaben\nText\nEinzeilig, Sprache(n): de\niqb_compatibility\n\n\nKopfhörereinsatz\nVokabular\nurl: ‘https://w3id.org/iqb/v24/kh/’, Einmalauswahl, Nummerierung unterdrückt\niqb_phones\n\n\nSchulform\nVokabular\nurl: ‘https://w3id.org/kim/schularten/’, Einmalauswahl, Nummerierung unterdrückt\nkim_type_school"
+    "text": "Stimulus\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nTextniveau (GeR)\nVokabular\nurl: ‘https://w3id.org/iqb/v26/ng/’, Einmalauswahl, Dialogbox, Nummerierung unterdrückt\ne2\n\n\nTextkomplexität: Lexiko-Grammatik\nVokabular\nurl: ‘https://w3id.org/iqb/v25/le/’, Einmalauswahl, Dialogbox, Nummerierung unterdrückt\ne3\n\n\nTextkomplexität: Abstraktionsgrad\nVokabular\nurl: ‘https://w3id.org/iqb/v25/ta/’, Einmalauswahl, Dialogbox, Nummerierung unterdrückt\ne4\n\n\nTextkomplexität: Thematischer Vertrautheitsgrad\nVokabular\nurl: ‘https://w3id.org/iqb/v25/ve/’, Einmalauswahl, Dialogbox, Nummerierung unterdrückt\ne5\n\n\nTextsorte\nVokabular\nurl: ‘https://w3id.org/iqb/v25/te/’, Einmalauswahl, Dialogbox, Nummerierung unterdrückt\ne6\n\n\nAndere Textsorte\nText\nEinzeilig, Sprache(n): de\niqb_other_text_type\n\n\nThema\nVokabular\nurl: ‘https://w3id.org/iqb/v25/th/’, Einmalauswahl, Dialogbox, Nummerierung unterdrückt\ne7\n\n\nAnderes Thema\nText\nEinzeilig, Sprache(n): de\niqb_other_topic\n\n\nLänge des verwendeten Audioauszugs\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden\niqb_time_stimulus\n\n\nWortanzahl\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein\niqb_word_count\n\n\nAufgabenzeit\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden\niqb_time_unit\n\n\nUnverträgliche Aufgaben\nText\nEinzeilig, Sprache(n): de\niqb_compatibility\n\n\nKopfhörereinsatz\nVokabular\nurl: ‘https://w3id.org/iqb/v24/kh/’, Einmalauswahl, Dialogbox, Nummerierung unterdrückt\niqb_phones\n\n\nSchulform\nVokabular\nurl: ‘https://w3id.org/kim/schularten/’, Einmalauswahl, Dialogbox, Nummerierung unterdrückt\nkim_type_school"
   },
   {
     "objectID": "index.html#quellenangaben",
@@ -25,6 +25,13 @@
     "href": "index.html#hörsequenz",
     "title": "Metadatenprofile für Testaufgaben - Französisch Sek I",
     "section": "Hörsequenz",
-    "text": "Hörsequenz\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nSprecheranzahl / Sprechermerkmale\nText\nEinzeilig, Sprache(n): de\nk2\n\n\nSprechtempo\nVokabular\nurl: ‘https://w3id.org/iqb/v25/sp/’, Einmalauswahl, Nummerierung unterdrückt\nk3\n\n\nVarianten\nVokabular\nurl: ‘https://w3id.org/iqb/v25/fv/’, Einmalauswahl, Nummerierung unterdrückt\nk4\n\n\nNebengeräusche\nVokabular\nurl: ‘https://w3id.org/iqb/v25/ne/’, Einmalauswahl, Nummerierung unterdrückt\nk5\n\n\nTranskript zur Aufgabe\nText\nMehrzeilig, Sprache(n): de\niqb_final_transcript"
+    "text": "Hörsequenz\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nSprecheranzahl / Sprechermerkmale\nText\nEinzeilig, Sprache(n): de\nk2\n\n\nSprechtempo\nVokabular\nurl: ‘https://w3id.org/iqb/v25/sp/’, Einmalauswahl, Dialogbox, Nummerierung unterdrückt\nk3\n\n\nVarianten\nVokabular\nurl: ‘https://w3id.org/iqb/v25/fv/’, Einmalauswahl, Dialogbox, Nummerierung unterdrückt\nk4\n\n\nNebengeräusche\nVokabular\nurl: ‘https://w3id.org/iqb/v25/ne/’, Einmalauswahl, Dialogbox, Nummerierung unterdrückt\nk5\n\n\nTranskript zur Aufgabe\nText\nMehrzeilig, Sprache(n): de\niqb_final_transcript"
+  },
+  {
+    "objectID": "docs/changelog.html",
+    "href": "docs/changelog.html",
+    "title": "",
+    "section": "",
+    "text": "Änderung von Version 0.12.0 auf Version 0.13.0\nDas Feld ‘Schulform’ in Aufgabe wurde hinzugefügt."
   }
 ]
