@@ -1,9 +1,14 @@
 {
   "id": "https://raw.githubusercontent.com/iqb-vocabs/p52/master/unit.json",
-  "label": [{
-    "lang": "de",
-    "value": "IQB Französisch Sek I - Aufgabe"
-  }],
+  "label": [
+    {
+      "lang": "de",
+      "value": "IQB Französisch Sek I - Aufgabe"
+    }
+  ],
+  "target": [
+    "UNIT"
+  ],
   "groups": [
     {
       "label": [
@@ -21,7 +26,7 @@
               "value": "Textniveau (GeR)"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v26/ng/",
             "allowMultipleValues": false,
@@ -36,7 +41,7 @@
               "value": "Textkomplexität: Lexiko-Grammatik"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v25/le/",
             "allowMultipleValues": false,
@@ -51,7 +56,7 @@
               "value": "Textkomplexität: Abstraktionsgrad"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v25/ta/",
             "allowMultipleValues": false,
@@ -66,7 +71,7 @@
               "value": "Textkomplexität: Thematischer Vertrautheitsgrad"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v25/ve/",
             "allowMultipleValues": false,
@@ -81,7 +86,7 @@
               "value": "Textsorte"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v25/te/",
             "allowMultipleValues": false,
@@ -96,9 +101,9 @@
               "value": "Andere Textsorte"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "single"
+            "format": "SINGLE"
           }
         },
         {
@@ -109,7 +114,7 @@
               "value": "Thema"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v25/th/",
             "allowMultipleValues": false,
@@ -124,9 +129,9 @@
               "value": "Anderes Thema"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "single"
+            "format": "SINGLE"
           }
         },
         {
@@ -137,7 +142,7 @@
               "value": "Länge des verwendeten Audioauszugs"
             }
           ],
-          "type": "number",
+          "type": "NUMBER",
           "parameters": {
             "minValue": 0,
             "digits": 0,
@@ -152,7 +157,7 @@
               "value": "Wortanzahl"
             }
           ],
-          "type": "number",
+          "type": "NUMBER",
           "parameters": {
             "minValue": 0,
             "digits": 0
@@ -166,7 +171,7 @@
               "value": "Aufgabenzeit"
             }
           ],
-          "type": "number",
+          "type": "NUMBER",
           "parameters": {
             "minValue": 0,
             "digits": 0,
@@ -181,9 +186,9 @@
               "value": "Unverträgliche Aufgaben"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "single"
+            "format": "SINGLE"
           }
         },
         {
@@ -194,7 +199,7 @@
               "value": "Kopfhörereinsatz"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v24/kh/",
             "allowMultipleValues": false,
@@ -209,7 +214,7 @@
               "value": "Schulform"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/kim/schularten/",
             "allowMultipleValues": false,
@@ -234,9 +239,9 @@
               "value": "Vermerk / Zitation"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "multiline"
+            "format": "MULTILINE"
           }
         },
         {
@@ -247,9 +252,9 @@
               "value": "Transkript Original / Text Original"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "multiline"
+            "format": "MULTILINE"
           }
         }
       ]
@@ -270,9 +275,9 @@
               "value": "Sprecheranzahl / Sprechermerkmale"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format":  "single"
+            "format": "SINGLE"
           }
         },
         {
@@ -283,7 +288,7 @@
               "value": "Sprechtempo"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v25/sp/",
             "allowMultipleValues": false,
@@ -298,7 +303,7 @@
               "value": "Varianten"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v25/fv/",
             "allowMultipleValues": false,
@@ -313,7 +318,7 @@
               "value": "Nebengeräusche"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v25/ne/",
             "allowMultipleValues": false,
@@ -328,9 +333,9 @@
               "value": "Transkript zur Aufgabe"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "multiline"
+            "format": "MULTILINE"
           }
         }
       ]

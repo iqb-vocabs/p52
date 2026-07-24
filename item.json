@@ -1,9 +1,14 @@
 {
   "id": "https://raw.githubusercontent.com/iqb-vocabs/p52/master/item.json",
-  "label": [{
-    "lang": "de",
-    "value": "IQB Französisch Sek I - Item"
-  }],
+  "label": [
+    {
+      "lang": "de",
+      "value": "IQB Französisch Sek I - Item"
+    }
+  ],
+  "target": [
+    "ITEM"
+  ],
   "groups": [
     {
       "label": [
@@ -21,7 +26,7 @@
               "value": "Lese-/Hörstil"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v26/lh/",
             "allowMultipleValues": false,
@@ -36,7 +41,7 @@
               "value": "Geschätzte GeR Niveaustufe (a priori)"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v26/ng/",
             "allowMultipleValues": false,
@@ -51,7 +56,7 @@
               "value": "Empirisch ermittelte GeR Niveaustufe"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v26/nb/",
             "allowMultipleValues": false,
@@ -66,7 +71,7 @@
               "value": "Itemformat"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v27/ff/",
             "allowMultipleValues": false,
@@ -81,7 +86,7 @@
               "value": "Bildungsstandards ESA"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v56/fe/",
             "allowMultipleValues": true,
@@ -97,7 +102,7 @@
               "value": "Bildungsstandards MSA"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v56/fm/",
             "allowMultipleValues": true,
@@ -113,7 +118,7 @@
               "value": "Itemzeit"
             }
           ],
-          "type": "number",
+          "type": "NUMBER",
           "parameters": {
             "minValue": 0,
             "digits": 0,
@@ -128,7 +133,7 @@
               "value": "Technische Besonderheiten der Antwortoptionen"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v27/ti/",
             "allowMultipleValues": true

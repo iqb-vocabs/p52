@@ -1,6 +1,6 @@
 {
   "name": "p52",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "author": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
   "license": "CC0-1.0",
   "description": "Metadatenprofile Französisch Sek I",
@@ -16,6 +16,6 @@
   },
   "homepage": "https://github.com/iqb-vocabs/p52#readme",
   "dependencies": {
-    "@iqb/validate-md-profile": "^0.9.1"
+    "@iqb/validate-md-profile": "0.10.4"
   }
 }
