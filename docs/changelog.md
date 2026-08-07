@@ -1,3 +1,8 @@
+### Änderung von Version 0.14.0 auf Version 0.15.0
+
+Aktualisierung der Abhängigkeit auf @iqb/validate-md-profile@^0.10.8.
+Die IDs für das Metadatenprofil wurden durch w3id ersetzt.
+
 ### Änderung von Version 0.13.0 auf Version 0.14.0
 
 Die Metadatenprofile wurden auf der„metadata-profile@iqb-standard0.11“ umgesetzt.
